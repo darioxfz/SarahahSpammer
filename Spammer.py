@@ -33,7 +33,7 @@ def sarahah_post(user, msg):
 
     r = s.post(msgurl, data=data, headers=headers)
     if (r.status_code == "200"):
-        print("[Sarahah Spammer] ~ successfully sent a message to %s".format(user)) 
+        print("[Sarahah Spammer] ~ successfully sent a message to {}".format(user)) 
     #print(r.text)
 
 while(True):
